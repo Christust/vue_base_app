@@ -72,7 +72,15 @@ onMounted(() => {
   modalInstance = new Modal(generalModal.value)
   modalInstance._config.backdrop = !noCloseOnBackdrop.value
   modalInstance._config.keyboard = !noCloseOnEsc.value
+
+  generalModal.value.addEventListener('shown.bs.modal', handleModalShown)
 })
+
+const emit = defineEmits(['shown'])
+
+const handleModalShown = () => {
+  emit('shown')
+}
 
 defineExpose({
   show,

@@ -3,11 +3,9 @@ import { ref } from "vue";
 
 const frontendTecnologies = ref([
   "Vue 3",
-  "Redux",
+  "Pinia",
   "Bootstrap",
   "Axios",
-  "Yup",
-  "Formik",
   "Fontawesome",
   "Authgrads",
 ]);
@@ -23,23 +21,6 @@ const backendTecnologies = ref([
 
 <template>
   <div>
-    <!-- Button trigger modal -->
-    <button
-      type="button"
-      class="btn btn-primary"
-      data-bs-toggle="modal"
-      data-bs-target="#exampleModal"
-    >
-      Launch demo modal
-    </button>
-
-    <!-- Modal -->
-    <SharedModal
-      @acceptAction="showAction"
-      :title="'Titulo'"
-      :body="'Cuerpo'"
-      :haveAcceptOption="true"
-    />
     <main>
       <div>
         <p>
