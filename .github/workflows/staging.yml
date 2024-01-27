@@ -1,0 +1,28 @@
+name: Deployed to Firebase
+on:
+  push:
+    branches:
+      - main
+jobs:
+  firebase-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "America/Mexico_City"
+      - uses: actions/checkout@v3
+        with:
+          ref: main
+          fetch-depth: '0'
+      - uses: actions/setup-node@master
+        with:
+          node-version: '18.17.1'
+      - name: Install packages
+        run: npm install
+      - name: Build Project
+        run: npm run build-staging
+      - uses: w9jds/firebase-action@master
+        with:
+             args: deploy --only hosting
+        env:
+             FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
