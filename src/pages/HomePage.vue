@@ -2,7 +2,7 @@
 import { ref } from "vue";
 
 const frontendTecnologies = ref([
-  "Nextjs - React",
+  "Vue 3",
   "Redux",
   "Bootstrap",
   "Axios",
