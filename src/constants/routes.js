@@ -2,6 +2,7 @@ const routes = [
   {
     route: "/",
     name: "home",
+    title: "Home",
     icon: "fa-solid fa-house",
   },
   // {
@@ -20,6 +21,7 @@ const routes = [
   {
     route: "/about",
     name: "about",
+    title: "About",
     icon: "fa-solid fa-circle-question",
   },
 ];

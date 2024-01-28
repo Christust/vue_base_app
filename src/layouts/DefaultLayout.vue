@@ -14,7 +14,7 @@ const router = useRoute();
       <header>
         <h3
           v-text="
-            routes.filter((route) => route.route === router.path)[0]?.name
+            routes.filter((route) => route.route === router.path)[0]?.title
           "
         ></h3>
         <hr />

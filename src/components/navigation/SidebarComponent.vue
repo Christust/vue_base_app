@@ -28,7 +28,7 @@ const routes = ref(routesConstant);
           class="sidebar__sidebarRoute sidebar__sidebarRoute--button"
           @click="router.push({ name: route.name })"
         >
-          <span v-text="route.name"></span>
+          <span v-text="route.title"></span>
         </div>
       </div>
       <div class="sidebar__sidebarRouteContainer">
