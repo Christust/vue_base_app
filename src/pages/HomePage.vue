@@ -15,7 +15,6 @@ const backendTecnologies = ref([
   "SimpleJWT",
   "Swagger",
   "Sistema de autenticación",
-  "CRUDs completos",
 ]);
 </script>
 
