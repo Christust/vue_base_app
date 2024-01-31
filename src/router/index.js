@@ -20,7 +20,7 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from) => {
-  if (needAuthentication(to)) return { name: "login" };
+  if (!needAuthentication(to)) return { name: "login" };
   if (!canNavigateToLogin(to)) return { name: from.name };
   // explicitly return false to cancel the navigation
   // return false

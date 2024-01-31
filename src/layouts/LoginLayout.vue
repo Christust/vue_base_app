@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div>
+  <div class="loginWallpaper">
     <slot name="mainContent"></slot>
   </div>
 </template>
