@@ -4,11 +4,13 @@ import {
   canNavigateToLogin,
 } from "@/guards/authentication";
 import HomePageVue from "@/pages/HomePage.vue";
+import ContactPageVue from "@/pages/ContactPage.vue";
 import AboutPageVue from "@/pages/AboutPage.vue";
 import LoginPageVue from "@/pages/LoginPage.vue";
 
 const routes = [
   { path: "/", component: HomePageVue, name: "home" },
+  { path: "/contact", component: ContactPageVue, name: "contact" },
   { path: "/about", component: AboutPageVue, name: "about" },
   { path: "/login", component: LoginPageVue, name: "login" },
 ];
