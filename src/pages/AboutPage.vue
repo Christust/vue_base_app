@@ -19,41 +19,41 @@
     </p>
 
     <div class="row justify-content-between aling-items-center">
-      <div class="card cardGradient col-1">
+      <div class="card p-1 col-1">
         <img src="/images/logos/firebase.png" />
       </div>
-      <div class="card cardGradient col-1">
+      <div class="card p-1 col-1">
         <img src="/images/logos/github.png" />
       </div>
-      <div class="card cardGradient col-1">
+      <div class="card p-1 col-1">
         <img src="/images/logos/pinia.svg" />
       </div>
-      <div class="card cardGradient col-1">
+      <div class="card p-1 col-1">
         <img
           class="p-2"
           src="/images/logos/vue.svg"
         />
       </div>
-      <div class="card cardGradient col-1">
+      <div class="card p-1 col-1">
         <img
           class="p-1"
           src="/images/logos/bootstrap.svg"
         />
       </div>
-      <div class="card cardGradient col-1">
+      <div class="card p-1 col-1">
         <img src="/images/logos/axios.png" />
       </div>
-      <div class="card cardGradient col-1">
+      <div class="card p-1 col-1">
         <img
           src="/images/logos/fontawesome.svg"
         />
       </div>
-      <div class="card cardGradient col-1">
+      <div class="card p-1 col-1">
         <img
           src="/images/logos/vue-router.png"
         />
       </div>
-      <div class="card cardGradient col-1">
+      <div class="card p-1 col-1">
         <img
           class="p-1"
           src="/images/logos/github-actions.svg"

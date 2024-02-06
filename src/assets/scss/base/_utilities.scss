@@ -3,22 +3,16 @@
   text-justify: inter-word;
 }
 
-.cardGradient {
-  background-image: linear-gradient($color-primary-light, $color-primary-dark);
-  color: $silver-200;
-  border: none;
-  border-radius: 40px;
-  .card-title {
-    color: $color-white;
-  }
-  p,
-  li {
-    color: $silver-200;
-  }
+.card {
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow:
+    3px 3px 10px #d9d9d9,
+    -3px -3px 10px #ffffff;
+
   img {
     aspect-ratio: 3/2;
     object-fit: contain;
-    mix-blend-mode: overlay;
   }
 }
 

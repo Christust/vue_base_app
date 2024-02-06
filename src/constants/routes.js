@@ -2,7 +2,7 @@ const routes = [
   {
     route: "/",
     name: "home",
-    title: "Home",
+    title: "Inicio",
     icon: "fa-solid fa-house",
   },
   // {
@@ -14,14 +14,16 @@ const routes = [
   //   route: "/users",
   //   name: "Usuarios",
   // },
-  // {
-  //   route: "/store",
-  //   name: "Inventario",
-  // },
+  {
+    route: "/contact",
+    name: "contact",
+    title: "Contacto",
+    icon: "fa-solid fa-address-book",
+  },
   {
     route: "/about",
     name: "about",
-    title: "About",
+    title: "Información",
     icon: "fa-solid fa-circle-question",
   },
 ];

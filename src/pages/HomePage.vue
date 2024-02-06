@@ -28,7 +28,7 @@ const backendTecnologies = ref([
           herramientas de una forma concentrada.
         </p>
         <div class="d-flex justify-content-around my-5">
-          <div class="card cardGradient shadow p-3 col-5">
+          <div class="card shadow p-3 col-5">
             <div class="card-body">
               <h5 class="card-title">Frontend</h5>
               <p class="card-text">
@@ -45,7 +45,7 @@ const backendTecnologies = ref([
             </div>
           </div>
 
-          <div class="card cardGradient shadow p-3 col-5">
+          <div class="card shadow p-3 col-5">
             <div class="card-body">
               <h5 class="card-title">Backend</h5>
               <p class="card-text">
